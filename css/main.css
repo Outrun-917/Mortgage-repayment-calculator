@@ -1,0 +1,35 @@
+:root {
+  --slate-700: #4e6e7e;
+
+  --font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+a {
+  color: var(--slate-700);
+}
+
+.hidden {
+  display: none !important;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-button-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
